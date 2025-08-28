@@ -12,9 +12,9 @@
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
      
      <style>
-        @media(min-width: 1880px){
-            .coustom-3xl{
-                gap:5rem;
+        @media(max-width: 1023px){
+            .coustom{
+               
             }
         }
      </style>
@@ -31,19 +31,19 @@
             <h1 class="text-2xl font-bold text-[#006747]">Emergency<br>Service</h1>
         </div>
 
-        <div class="flex gap-10">
+        <div class="flex lg:gap-10 gap-3">
             
-                <div  class="flex gap-1 bg-[#41ff6b1a] w-[125px] h-[50px] justify-center items-center rounded-full">
+                <div  class="flex gap-1 bg-[#41ff6b1a] md:w-[125px] md:h-[50px] w-[80px] h-[50px] justify-center items-center rounded-full">
                     <p class="font-bold text-xl">0</p>
-                    <img class="w-[30px] h-[30px]" src="./assets/heart.png" alt="">
+                    <img class="md:w-[30px] md:h-[30px] w-[25px] h-[25px]" src="./assets/heart.png" alt="">
                 </div>
             
-            <div class="flex gap-1  bg-[#41ff6b1a] w-[125px] h-[50px] justify-center items-center rounded-full">
+            <div class="flex gap-1  bg-[#41ff6b1a] md:w-[125px] md:h-[50px] w-[80px] h-[50px] justify-center items-center rounded-full">
                 <p class="font-bold text-xl">100</p>
-                <img class="w-[30px] h-[30px]" src="./assets/coin.png" alt="">
+                <img class="md:w-[30px] md:h-[30px] w-[25px] h-[25px]" src="./assets/coin.png" alt="">
             </div>
 
-            <div class="flex gap-1  bg-[#00A63E] w-[125px] h-[50px] justify-center items-center rounded-full">
+            <div class="flex gap-1  bg-[#00A63E] md:w-[125px] md:h-[50px] w-[90px] h-[50px] justify-center items-center rounded-full">
                 <p class="font-bold text-xl"><span class="font-bold text-xl" >0</span> Copy</p>
             </div>
         </div>
@@ -54,10 +54,10 @@
 
     <!--hero section-->
 
-    <div class="flex  flex-col justify-center items-center bg-gradient-to-br from-[#013223] to-[#006747] mt-5">
+    <div class="w-full flex  flex-col justify-center items-center bg-gradient-to-br from-[#013223] to-[#006747] mt-5">
         <img class="w-[92px] h-[92px] mt-5" src="./assets/logo-dark.png" alt="">
         <h1 class="text-white text-4xl font-bold mb-4">Emergency Service Directory</h1>
-        <p class="text-white mb-5">Government Emergency Services at Your Fingertip – A Project by  Government of the People’s Republic of Bangladesh</p>
+        <p class="text-white mb-5 sm:text-center">Government Emergency Services at Your Fingertip – A Project by<br class="sm:hidden">Government of the People’s Republic of Bangladesh</p>
     </div>
 
     <!--end hero section-->
@@ -65,11 +65,11 @@
 
     <!--main-section-->
 
-    <div class="grid grid-cols-12 p-20  gap-20">
+    <div class="grid grid-cols-12 justify-center p-20 mr-auto gap-2 ">
         <!--Card section-->
-    <div class="col-span-9 flex gap-4">
-            
-    <div class="card-body  w-[430px] h-[360px] bg-white shadow">
+    <div class="col-span-12  lg:col-span-9 grid sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-y-5 gap-2">
+    <!--card-1-->   
+    <div class="lg:min-w-[270px]  2xl:w-[300px] h-[360px] card-body bg-white shadow">
          
         <div class="p-4 flex flex-col gap-4 mx-4">
            <div class="flex justify-between  mt-2 ">
@@ -105,8 +105,8 @@
  
 </div>
 
-
-    <div class="card-body  w-[430px] h-[360px] bg-white shadow">
+   <!--card-2-->
+    <div class="h-[360px] lg:min-w-[270px] 2xl:w-[300px] card-body  bg-white shadow ">
          
         <div class="p-4 flex flex-col gap-4 mx-4">
            <div class="flex justify-between  mt-2 ">
@@ -142,8 +142,8 @@
 
 
    </div>
-
-   <div class="card-body  w-[430px] h-[360px] bg-white shadow">
+<!--card-3-->
+   <div class="h-[360px] lg:min-w-[270px] 2xl:w-[300px] card-body bg-white shadow ">
          
         <div class="p-4 flex flex-col gap-4 mx-4">
            <div class="flex justify-between  mt-2 ">
@@ -186,9 +186,9 @@
     <!--end card section-->
 
         <!--History section-->
-        <div class="col-span-3">
-            <div class="w-[400px] h-[144px] bg-white shadow ">
-                <div class="flex  p-4 justify-center items-center gap-25 ">
+        <div class="col-span-12 lg:col-span-3">
+            <div class="h-[144px] lg:w-[280px] xl:w-[350px] bg-white shadow ">
+                <div class="flex  p-4 justify-center items-center lg:gap-20 sm:gap-x-30 md:gap-x-60 ">
                     <div class="flex  gap-1">
                       <span class=""><i class="fa-solid fa-clock-rotate-left"></i></span>
                       <h1 class="font-bold">Call History</h1>
