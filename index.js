@@ -50,7 +50,7 @@ for(let cartButton of cartbtns){
 
 
         newCart.innerHTML=`
-                <div class="bg-[#fafafa] flex justify-around p-10 shadow" >
+                <div class="bg-[#fafafa] p-2 flex justify-around  shadow " >
                     
                     <div>
                         <h1>${serviceName}</h1>
